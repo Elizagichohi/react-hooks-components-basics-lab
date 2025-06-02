@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+function NavBar() {
   return (
     <nav>
       <a href="#home">I'm a link!</a>
@@ -23,13 +23,17 @@ function About() {
     </div>
   );
 }
+{/* write an <About> component here */ }
+
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <Home />
       <About />
+      {/* add the <Home> component here */}
+      {/* add your <About> component here */}
     </div>
   );
 }
